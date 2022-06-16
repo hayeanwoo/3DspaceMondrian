@@ -42,9 +42,13 @@ function addWeather(){
 }
 function paintPlane(){
   colorPlag=1;
-    push();
-    texture(img3);
   
+    push();
+    if(doorFlag==0){
+    texture(img3);}
+  else {
+     texture(textPageMain);
+  }
       push();
       for(let i = -500; i<=500; i+=200){
         for(let j = -500; j<=500; j+=200){
@@ -56,6 +60,8 @@ function paintPlane(){
       }
       pop();   
     pop();  
+  
+  
 }
 function spaceBar(){
    if (keyIsDown(32)){
