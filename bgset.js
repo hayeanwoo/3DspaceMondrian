@@ -21,8 +21,15 @@ function turnSnow(){
 function turnRain(){
   for (let j = 0; j< 10; j++){
     push();   
+    
     if (colorPlag==1){
+      if(doorFlag==0)
       fill(0);
+      else
+        fill(0,0,255);
+    }
+    
+    
     }
     else
       fill(255);
