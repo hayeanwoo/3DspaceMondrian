@@ -20,6 +20,16 @@ function trembleCircle(){
 }
 function nomarlCloud(){
   push();
+  
+  
+  if (doorFlag==1){
+      if (colorPlag == 1)
+        fill(100,100,255);
+     else 
+        fill(150,150,255);
+    }
+  
+  
   translate(0,0,-150);
   sphere(40); //중앙구름
    
