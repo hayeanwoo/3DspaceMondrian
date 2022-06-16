@@ -29,8 +29,6 @@ function turnRain(){
         fill(0,0,255);
     }
     
-    
-    }
     else
       fill(255);
     let v = p5.Vector.random3D();  
