@@ -16,7 +16,7 @@ let colorPlag=0;
 // 문 있는지 확인 
 let doorFlag=0;
 // 버튼 관련 
-let buttonFlag = 1;  // 버튼 있는지
+let buttonFlag = 0;  // 버튼 있는지
 let input, button, greeting;
 let button1;
 
