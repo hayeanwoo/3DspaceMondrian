@@ -30,26 +30,29 @@ function turnSnow(){
   pop();
 }
 function turnRain(){
-  for (let j = 0; j< 10; j++){
-    push();   
-    
+    push();
+    // 색 결정하기 
     if (colorPlag==1){
       if(doorFlag==0)
       fill(0);
       else
         fill(0,0,255);
     }
-    
-    
-    }
     else
       fill(255);
+    
+    // 반복문 돌려서 원기둥 구현하기 
+  for (let j = 0; j< 10; j++){
+    push();   
     let v = p5.Vector.random3D();  
     translate((v.x)*1000, 0, v.z*200);
       cylinder(1, 2000);
     pop();
     }
+    pop();
 }
+
+
 function addWeather(){
    if(val < 550){
      turnSnow();
