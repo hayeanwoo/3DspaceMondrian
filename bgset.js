@@ -3,8 +3,18 @@
 // 스페이스바 누르면 배경에 plane 띄우기
 
 function turnSnow(){ 
+    push()
+    if (doorFlag==1){
+      if (colorPlag == 1)
+        fill(0,0,255);
+     else 
+        fill(150,150,255);
+    }
+    else{
+      fill(255);
+    }
   for (let j = 0; j< 15; j++){  //눈발정도
-    push();   
+    push();     
     let v = p5.Vector.random3D();  
     translate((v.x)*400, v.y*400, v.z*400);
     let cnt = 6;
@@ -17,6 +27,7 @@ function turnSnow(){
     }
     pop();
   }
+  pop();
 }
 function turnRain(){
   for (let j = 0; j< 10; j++){
@@ -29,6 +40,8 @@ function turnRain(){
         fill(0,0,255);
     }
     
+    
+    }
     else
       fill(255);
     let v = p5.Vector.random3D();  
