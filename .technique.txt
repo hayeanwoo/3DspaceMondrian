@@ -1,0 +1,29 @@
+발표할 때 확인할 것들. 
+
+<기술>
+
+1. push(),pop() 이중 구현을 활용했는가?
+  1.1 turnSnow()함수와 paintPlane()함수 등에 구현되어 있다. 
+  
+  
+2. 6개의 기본 도형이 모두 쓰였는가?
+  2.1 plane() : 완료
+    2.1.1 spaceBar()함수 
+      2.1.1.1 paintPlane() 함수로 구현.
+    2.1.2 문. 
+  2.2 box() : 완료
+    2.2.1 room1()을 구현
+    2.2.2 room1.5()을 구현
+    2.2.3 room2()을 구현 
+  2.3 sphere() : 완료
+    2.3.1 nomalCloud()을 구현
+  2.4 cylinder() : 완료
+    2.4.1 turnRain()을 구현 
+  2.5 cone() : 완료
+    2.5.1 turnSnow() : 날리는 눈송이를 cone()으로 구현
+    2.5.2 trembleCircle() : tremble()을 cone()으로 구현
+  2.6 torus() : 완료
+    2.6.1 trembleCircle() 에서 구현. 
+
+3. 조명 : 완료
+4. 시점 : 완료 (키보드+엔터, 딜리트키)
