@@ -24,7 +24,7 @@ function nomarlCloud(){
   
   if (doorFlag==1){
       if (colorPlag == 1)
-        fill(150,150,255);
+        fill(180,180,200);
      else 
         fill(255);
     }
